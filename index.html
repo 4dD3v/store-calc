@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADZAPPS STORE</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="./images/favicon.ico"/>
+</head>
+
+<body>
+    <header>
+        <h1>Bem vindo(a)</h1>
+    </header>
+    <section>
+
+        <h4>QUE TAL TURBINAR SEU ENTRETENIMENTO DIGITAL?</h4>
+        <p><i class="material-icons">star_rate</i>Selecione os seus favoritos.<i class="material-icons">star_rate</i>
+        </p>
+
+        <label class="control control--checkbox">
+            <span class="margincheck"><i class="material-icons">
+                connected_tv
+                </i> Netflix 4 TELAS +HD/4K <span class="price">R$ 35,00</span></span>
+            <input class="price-variant" value="35" type="checkbox" />
+        </label>
+        <br>
+        <label class="control control--checkbox">
+            <span class="margincheck"><i class="material-icons">
+                connected_tv
+                </i> Amazon Prime Video + Kindle Unlimited <span class="price">R$ 15,00</span></span>
+            <input class="price-variant" value="15" type="checkbox" />
+        </label>
+        <br>
+        <label class="control control--checkbox">
+            <span class="margincheck"><i class="material-icons">
+                connected_tv
+                </i> Disney Plus + Star Plus <span class="price">R$ 32,00</span></span>
+            <input class="price-variant" value="32" type="checkbox" />
+        </label>
+        <br>
+        <label class="control control--checkbox">
+            <span class="margincheck"><i class="material-icons">
+                connected_tv
+                </i> GloboPlay + Canais ao Vivo <span class="price">R$ 25,00</span></span>
+            <input class="price-variant" value="25" type="checkbox" />
+        </label>
+        <br>
+        <label class="control control--checkbox">
+            <span class="margincheck"><i class="material-icons">
+                connected_tv
+                </i> GloboPlay + Telecine <span class="price">R$ 35,00</span></span>
+            <input class="price-variant" value="25" type="checkbox" />
+        </label>
+        <br>
+        <label class="control control--checkbox">
+            <span class="margincheck"><i class="material-icons">
+                connected_tv
+                </i> Directv Go + Extras <span class="price">R$ 65,00</span></span>
+            <input class="price-variant" value="65" type="checkbox" />
+        </label>
+
+
+        <br>
+
+        <h1>Total: <span class="total"></span> </h1>
+
+        <h5>Acredita que a soma, está incorreta? utilize a calculadora abaixo:
+        </h5>
+    </section>
+    <div id="container">
+        <div id="calculator">
+            <div id="result">
+                <div id="history">
+                    <p id="history-value"></p>
+                </div>
+                <div id="output">
+                    <p id="output-value"></p>
+                </div>
+            </div>
+            <div id="keyboard">
+                <button class="operator" id="clear">C</button>
+                <button class="operator" id="backspace">CE</button>
+                <button class="operator" id="%">%</button>
+                <button class="operator" id="/">&#247;</button>
+                <button class="number" id="7">7</button>
+                <button class="number" id="8">8</button>
+                <button class="number" id="9">9</button>
+                <button class="operator" id="*">&times;</button>
+                <button class="number" id="4">4</button>
+                <button class="number" id="5">5</button>
+                <button class="number" id="6">6</button>
+                <button class="operator" id="-">-</button>
+                <button class="number" id="1">1</button>
+                <button class="number" id="2">2</button>
+                <button class="number" id="3">3</button>
+                <button class="operator" id="+">+</button>
+                <button class="empty" id="empty"></button>
+                <button class="number" id="0">0</button>
+                <button class="empty" id="empty"></button>
+                <button class="operator" id="=">=</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <p>&copy; AdzDev</p>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
